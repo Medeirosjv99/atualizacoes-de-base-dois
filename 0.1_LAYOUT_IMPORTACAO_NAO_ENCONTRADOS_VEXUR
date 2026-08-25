@@ -1,0 +1,3 @@
+LOAD CSV  with headers FROM 'https://s3.amazonaws.com/qv-docs-v2.vexur.com.br/a8d7c678-5f84-4858-b29f-6cc40fdf1235.csv' AS row FIELDTERMINATOR ';'
+
+return count(row)
